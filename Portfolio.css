@@ -1,0 +1,161 @@
+* {box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;}
+
+h1 {
+    font-size: 100px;
+    padding-left: 10px;
+}
+
+    /* Beg of the nav bar in header */
+.header a:hover {
+    background-color: goldenrod;
+}
+.header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+} 
+.header li {
+    float: right;
+}
+.header li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.header div ul li {
+    font-size: 25px;
+    margin-left: 20px;
+    display: inline-block;
+}
+@media all and (max-width: 800px) {
+    h1 {font-size: 60px;}
+}
+
+@media all and (max-width: 600px) {
+    h1 {font-size: 40px;}
+}
+@media all and (max-width: 400px) {
+    h1 {font-size: 20px;}
+}
+/*end Nav in header*/
+
+/*beg  nav bar in 'werk' */
+.werk-nav a:hover {
+    background-color: goldenrod;
+}
+.werk-nav ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+    
+.werk-nav li {
+    float:left;
+    padding: 10px;
+}
+
+.werk-nav li a {
+    display: inline-block;
+    background-color: black;
+    padding: 10px;
+
+}
+/* end nav nar in 'werk'*/
+
+body {
+    font-family: "Roboto Mono", monospace;
+}
+.border {
+    border-collapse: collapse;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    border-radius: 3px;
+}
+.law-n-tech {
+    background-image: url("./Assets/mnt\ landscape.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    width: 100%;
+}
+
+/*below is text size and growth for main*/
+
+.mainbox {
+    font-size: 16px; 
+    display: inline-block;
+    margin-left: 20px; 
+}
+.left {
+    float:left;
+}
+.right {
+    float:right;
+}
+@media all and (max-width: 800px) {
+    .main-box {font-size: 14px;}
+}
+@media all and (max-width: 600px) {
+    .main-box {font-size: 12px;}
+}
+
+@media all and (max-width:400px) {
+    .main-box {font-size: 10px;}
+}
+.main-box::after {
+    content: normal;
+    display:table;
+    clear: both;
+}
+
+.blackandwhite { 
+    background-color: white;
+    color: black;
+    height: 300px;
+    margin-bottom: 20px;
+    padding: 50px;
+}
+.headshot {
+    width: 200px; 
+    height: 200px;
+    margin-top:10px;
+}
+
+.image-size {
+    height: 100px;
+    width: 110px;
+}
+.image-size li:before {
+    content:attr(title);
+    display: block;
+}
+
+p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    right: 0%;
+}
+.footer {
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 30px;
+    text-align: center;
+}
+h2 {
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+
+.footer h2 {
+    font-size: 20px;
+}
+
+
+
